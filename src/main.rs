@@ -16,9 +16,9 @@ fn main() {
 
     let mut cnt = 0;
 
-    for i in 0..a + 1 {
-        for j in 0..b + 1 {
-            for k in 0..c + 1 {
+    for i in 0..=a {
+        for j in 0..=b {
+            for k in 0..=c {
                 if i * 500 + j * 100 + k * 50 == x {
                     // println!("{} {} {}", i, j, k);
                     cnt = cnt + 1;
